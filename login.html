@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/login.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
     <title>Document</title>
 </head>
 <body>
@@ -16,23 +17,20 @@
         </div>
 
         <div class="formulario">
-
-            <form class="loginForm">
+            <form id="loginForm">
                 <div id="inicioForm">
-
-                    <h2>Pon tus datos aqui!!</h2>
-                    <input type="email" name="email" id="" placeholder="Ingresa Correo">
-                    <input type="password" name="password" id="" placeholder="Ingresa Contraseña">
-      
+                    <h2>Inicio Sesión</h2>
+                    <input type="email" name="email" id="email" placeholder="Ingresa Correo">
+                    <input type="password" name="password" id="password" placeholder="Ingresa Contraseña">
+                    <input type="submit" value="Ingresar">
                 </div>
-
-                <button type="submit">Ingresa</button>
+                
             </form>
-
-            <p>¿Todavia no tienes cuenta? <a href="#">Crear</a></p>
+            <p>¿Todavia no tienes cuenta? <a href="./registro.html">Crear</a></p>
     
         </div>
 </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="js/login.js"></script>
     
 </body>

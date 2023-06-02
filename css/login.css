@@ -4,7 +4,7 @@ body{
     font-family: 'Poppins', sans-serif;
     text-align: center;
     margin: 0%;
-    padding: 0;
+    padding: 3%;
     background:url(/img/benedetta-esposito-W88ckjVyO5E-unsplash.jpg);
     background-size: cover;
     color: white;
@@ -20,7 +20,7 @@ body{
     align-items: center;
     border: 3px solid black;
     border-radius: 10px;
-    margin: 150px 150px;
+    margin: 10px 150px;
     padding: 150px 80px;
     text-align: center;
     background-color: rgb(40, 38, 38);
@@ -31,7 +31,7 @@ body{
     
 }
 
-.loginForm{
+#loginForm{
     display: block;
     line-height: 100px;
     margin-top: 50px;
